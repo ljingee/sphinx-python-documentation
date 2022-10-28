@@ -1,0 +1,9 @@
+# Install packages required by application
+# ...
+
+sphinx
+# Install theme used in our appliation
+sphinx_rtd_theme
+sphinx_qt_documentation
+# Install an alternative of LaTex
+rinohtype
