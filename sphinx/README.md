@@ -163,4 +163,12 @@ Follow [Project README](../README.md)
 
 ## Publish HTML - Hosting the website on GitHub
 
-*
+* Copy the content of **sphinx/_build/html** to **docs/**
+
+  ```
+  cd <project>
+  mkdir docs
+  cp -a sphinx/_build/html/. docs
+  ```
+
+* git commit **docs** and git push to GitHub
